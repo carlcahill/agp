@@ -68,7 +68,7 @@ body {
 .banner-kicker {
   font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
   opacity: 0.9;
