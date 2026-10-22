@@ -217,8 +217,9 @@ p {
 .register-cta {
   margin-top: 1.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.75rem;
 }
 
@@ -246,14 +247,28 @@ p {
   transform: translateY(-1px);
 }
 
+.btn-primary--filled {
+  background: #fff;
+  border-color: #fff;
+  color: var(--bg);
+}
+
+.btn-primary--filled:hover {
+  background: #e8e8e8;
+  border-color: #e8e8e8;
+  color: var(--bg);
+}
+
 .register-note {
   margin: 0;
+  flex-basis: 100%;
   color: var(--text-muted);
   font-size: 0.9375rem;
 }
 
 @media (max-width: 640px) {
   .register-cta {
+    flex-direction: column;
     align-items: stretch;
   }
 
